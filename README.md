@@ -66,22 +66,22 @@ Cross-Origin Resource Sharing (CORS) is enabled to allow requests from `[http://
 ## Some ScreenShots
 
 ### Monthly Calendar View with Public Holidays
-![image](https://github.com/user-attachments/assets/e8a795b6-acee-45a5-81eb-c107ac69de6b)
+![Screenshot 2024-08-26 223352](https://github.com/user-attachments/assets/c92c7936-30d4-4e3a-8076-834364952d47)
 
 ### Weekly Calendar View
-![image](https://github.com/user-attachments/assets/acec20b1-c250-45db-8fe8-ad73e54b942f)
+![Screenshot 2024-08-26 223537](https://github.com/user-attachments/assets/f6b9df36-fa1e-4aad-85b7-288419b667bb)
 
 ### Daily Calendar View
-![image](https://github.com/user-attachments/assets/9d6c79ad-e55e-4097-894c-074fc5e1ac00)
+![Screenshot 2024-08-26 223701](https://github.com/user-attachments/assets/7fa19ede-6116-45b3-bd4d-f7bf1d14424d)
 
 ### Schedules View
-![image](https://github.com/user-attachments/assets/ca4d20a1-3285-4a0d-ae7b-421db8ff5e9e)
+![Screenshot 2024-08-26 223756](https://github.com/user-attachments/assets/50a01897-9237-4acf-bc27-d7759a7eb11f)
 
 ### Edit View
-![image](https://github.com/user-attachments/assets/94830cc5-0cd5-46e5-96f4-a4662b7c6cd8)
+![Screenshot 2024-08-26 223904](https://github.com/user-attachments/assets/53c7d919-f4c6-41e1-8552-57bb50fbe4e4)
 
 ### ToolTip for Schedules deleting, View and More
-![image](https://github.com/user-attachments/assets/08c81d22-ec45-4971-bdeb-839988ca1390)
+![Screenshot 2024-08-26 223844](https://github.com/user-attachments/assets/69833310-2e78-4db3-a6bb-10657cb62d7b)
 
 
 
