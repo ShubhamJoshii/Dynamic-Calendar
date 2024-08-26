@@ -1,0 +1,1 @@
+import{d as s,i}from"./index-DjgXxVfn.js";s.extend(i);function h(d,f){const t=s(new Date(f,d,1)),a=t.endOf("month");let e=t.startOf("isoWeek");const n=[];for(;e.isBefore(a)||e.isSame(a,"day");){const r=[];for(let o=0;o<7;o++)r.push(e.format("YYYY-MM-DD")),e=e.add(1,"day");n.push(r)}return n}export{h as g};

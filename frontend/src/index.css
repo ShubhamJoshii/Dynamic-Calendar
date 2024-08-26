@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.row-line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: calc(100% - 20px);
+  margin-left: 40px;
+  height: 1px;
+  background-color: black;
+  opacity: .2;
+}
+
+.flex > .box:first-child:hover + .box {
+  height: 0; /* Decrease height of the second box */
+}
+
+.flex > .box:first-child:hover {
+  height: 200px; /* Increase height of the first box */
+}
+
+.flex > .box:first-child:not(:hover) + .box {
+  height: 100px; /* Reset height of the second box */
+}

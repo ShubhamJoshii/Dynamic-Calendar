@@ -1,0 +1,159 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  flex: 1;
+  padding: 32px 16px 64px 32px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  font-size: 24px;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 18px;
+}
+
+.holiday {
+  background-color: #f56565;
+  color: #2d3748;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.holiday-text {
+  color: #fefcbf;
+  font-weight: bolder;
+  padding: 4px;
+}
+
+.holiday-list {
+  display: flex;
+  gap: 8px;
+  background-color: #fefcbf;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.holiday-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.holiday-item-text {
+  font-size: 14px;
+  color: #f56565;
+  font-weight: bold;
+}
+
+.nav-arrows {
+  display: flex;
+  gap: 40px;
+  color: #718096;
+}
+
+.nav-arrow {
+  cursor: pointer;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.table-row {
+  position: relative;
+  height: 96px;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+.time-column {
+  width: 96px;
+  border-right: 2px solid #e2e8f0;
+}
+
+.time-text {
+  position: absolute;
+  top: 42.5%;
+  font-size: 12px;
+  z-index: 10;
+}
+
+.separator {
+  position: absolute;
+  height: 0.5px;
+  top: 51%;
+  margin-left: 80px;
+  background-color: #dadce0;
+  width: calc(100% - 80px);
+}
+
+.schedule-cell {
+  position: relative;
+  flex: 1;
+  cursor: pointer;
+  padding: 0 8px;
+  border-radius: 4px;
+  height: 80px;
+  margin: 8px 0;
+  color: white;
+  transition: background-color 0.1s ease;
+}
+
+.schedule-cell:hover {
+  background-color: rgba(9, 151, 228, 0.34);
+  color: #fff;
+}
+
+.schedule-title {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.schedule-time {
+  font-size: 12px;
+  letter-spacing: 0.025em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time-line {
+  position: absolute;
+  width: 103%;
+  margin-left: -4%;
+  top: calc(var(--minute) / 30 * 100%);
+}
+
+.time-line-bar {
+  height: 2px;
+  background-color: #e53e3e;
+  position: relative;
+}
+
+.time-line-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: inherit;
+  position: absolute;
+  top: -5px;
+}
